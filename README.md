@@ -1,17 +1,46 @@
-# profil_mahasiswa
+# Profil Mahasiswa
 
-A new Flutter project.
+Aplikasi Flutter sederhana untuk tugas mandiri mata kuliah Pemrograman Mobile
+(materi: Widget dan Layout pada Flutter).
 
-## Getting Started
+## Tujuan
+Menerapkan konsep widget, layout (Row, Column, Container), dan widget bertingkat
+untuk membuat halaman profil mahasiswa sesuai wireframe pada LKP.
 
-This project is a starting point for a Flutter application.
+## Identitas
+- Nama  : Ahmad Badrul Furqon
+- NIM   : 2495114004
+- Kelas : TI A
 
-A few resources to get you started if this is your first Flutter project:
+## Widget yang Digunakan
+- `MaterialApp`, `Scaffold`, `AppBar`, `Drawer`
+- `Column`, `Row`, `Container`, `Expanded`
+- `Card`, `Icon`, `ElevatedButton`, `Divider`
+- `Image.asset`, `ClipOval`
+- `Padding`, `SizedBox`, `SingleChildScrollView`
+- `showModalBottomSheet`, `PopupMenuButton`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Cara Menjalankan
+1. Pastikan Flutter SDK terpasang (`flutter doctor`).
+2. Clone repository ini:
+```bash
+   git clone https://github.com/USERNAME/profil_mahasiswa.git
+   cd profil_mahasiswa
+```
+3. Unduh dependensi dan jalankan:
+```bash
+   flutter pub get
+   flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Mengganti Data dan Foto
+- Data: edit class `DataMahasiswa` di `lib/main.dart`.
+- Foto: simpan sebagai `assets/images/profile.jpg`.
+
+## Screenshot
+<!-- Ganti dengan screenshot asli. Simpan di folder docs/ lalu tautkan: -->
+<!-- ![Tampilan utama](docs/home.png) -->
+[ISI SCREENSHOT]
+
+## Kesimpulan
+[ISI SESUAI PENGALAMAN]
